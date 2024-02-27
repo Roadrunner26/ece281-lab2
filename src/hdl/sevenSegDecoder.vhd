@@ -63,6 +63,7 @@ begin
     c_Sd <= '1' when ( (i_D = x"1") or
                        (i_D = x"4") or
                        (i_D = x"7") or
+                       (i_D = x"9") or
                        (i_D = x"A") or
                        (i_D = x"F") ) else '0';
                        
